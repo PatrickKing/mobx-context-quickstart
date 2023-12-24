@@ -1,8 +1,8 @@
-import { makeAutoObservable } from "mobx"
+import { observable } from "mobx"
 
 const MakeStore = () => {
 
-  return makeAutoObservable({
+  return observable({
     foo: 'bar',
   })
 
